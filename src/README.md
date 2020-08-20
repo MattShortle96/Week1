@@ -1,0 +1,2 @@
+#Week 1:
+This is the first assignment for Marciopa Community College's BESD class. The Java code features variables such as buying items with money in your wallet, how many friends made over your age, and your name.

@@ -10,9 +10,9 @@ public class App {
 		
 		int friends = 47;
 		int numberOfFriends = 47;
-		
 		int age = 23;
 		int yearsOld = 23;
+		
 		String firstName = "Matthew";
 		String first_name = "Matthew";
 		String lastName = "Shortle";
@@ -35,10 +35,18 @@ public class App {
 		
 		//Number of Friends
 		System.out.println(firstName + " is " + age + " years old and he has " + friends + " friends.");
-		System.out.println("On average, " + firstName + " has made " + (double) (friends/age) + " per year.");
+		System.out.printf("On average, %s has made %.2f friends per year.", firstName, 
+				((double) friends / (double) age));
+		System.out.println();
+		System.out.println(first_name + " is " + yearsOld + " years old and he has " + numberOfFriends + " friends.");
+		System.out.printf("On average, %s has made %.2f friends per year.", first_name, 
+				((double) numberOfFriends / (double) yearsOld));
+		System.out.println();
 		
 		//My Name
-		System.out.println("My name is " + firstName + " " + midInitial + " " + lastName + ".");
+		System.out.println("My name is " + firstName + " " + midInitial + ". " + lastName + ".");
+		System.out.printf("My name is %s %s. %s and I'm %d years old.", 
+				first_name, middle_initial, last_name, yearsOld);
 				
 
 	}

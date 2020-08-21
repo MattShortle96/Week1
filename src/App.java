@@ -47,8 +47,6 @@ public class App {
 		System.out.println("My name is " + firstName + " " + midInitial + ". " + lastName + ".");
 		System.out.printf("My name is %s %s. %s and I'm %d years old.", 
 				first_name, middle_initial, last_name, yearsOld);
-				
-
 	}
 
 }
